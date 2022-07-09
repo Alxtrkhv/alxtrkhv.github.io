@@ -2,6 +2,7 @@
     flex: 0 0 auto;
     height: 100px;
     display: flex;
+    text-align: center;
 }
 
 .footer p {
