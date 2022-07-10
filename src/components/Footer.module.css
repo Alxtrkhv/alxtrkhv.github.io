@@ -5,6 +5,7 @@
     text-align: center;
 }
 
-.footer p {
+.footer b {
+    font-size: 1.05em;
     margin: auto;
 }

@@ -16,9 +16,9 @@ function GetYearsText(firstYear: number): string {
 export default function Footer(props: Props) {
   return (
     <div className={styles.footer}>
-      <p>
+      <b>
         {"\u00A9"} {GetYearsText(props.firstYear)} {props.author}
-      </p>
+      </b>
     </div>
   );
 }
