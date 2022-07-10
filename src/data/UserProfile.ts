@@ -3,7 +3,8 @@ type UserProfile = {
   lastName: string;
   title: string;
   avatar: string;
-  profiles: Array<[string, string]>;
+  profiles: string[][];
+  firstYear: number;
 };
 
 export default UserProfile;

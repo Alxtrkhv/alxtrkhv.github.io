@@ -1,9 +1,13 @@
 import styles from "./Header.module.css";
 
-export default function Header() {
+type Props = {
+  title: string;
+};
+
+export default function Header(props: Props) {
   return (
     <div className={styles.header}>
-      <p className={styles.logo}>Alexander Terekhov</p>
+      <p className={styles.logo}>{props.title}</p>
     </div>
   );
 }

@@ -1,9 +1,24 @@
 import styles from "./Footer.module.css";
 
-export default function Footer() {
+type Props = {
+  author: string;
+  firstYear: number;
+};
+
+function GetYearsText(firstYear: number): string {
+  const currentYear = new Date().getFullYear();
+
+  return firstYear < currentYear
+    ? `${firstYear} - ${currentYear}`
+    : currentYear.toString();
+}
+
+export default function Footer(props: Props) {
   return (
     <div className={styles.footer}>
-      <p>Alexander Terekhov 2022</p>
+      <p>
+        {"\u00A9"} {GetYearsText(props.firstYear)} {props.author}
+      </p>
     </div>
   );
 }

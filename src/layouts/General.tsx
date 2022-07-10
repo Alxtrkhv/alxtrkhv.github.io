@@ -6,15 +6,17 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 interface Props {
+  author: string;
+  firstYear: number;
   children: React.ReactNode;
 }
 
 export default function GeneralLayout(props: Props) {
   return (
     <div className={styles.layout}>
-      <Header />
+      <Header title={props.author} />
       <div className={styles.children}>{props.children}</div>
-      <Footer />
+      <Footer firstYear={props.firstYear} author={props.author} />
     </div>
   );
 }

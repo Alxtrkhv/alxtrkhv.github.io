@@ -3,7 +3,7 @@ import styles from "./LinksPanel.module.css";
 import LinkButton from "./LinkButton";
 
 type Props = {
-  links: Array<[string, string]>;
+  links: string[][];
 };
 
 export default function LinksPanel(props: Props) {
