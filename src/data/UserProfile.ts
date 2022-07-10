@@ -1,21 +1,9 @@
-export default class UserProfile {
+type UserProfile = {
   firstName: string;
   lastName: string;
   title: string;
-  avatarPath: string;
+  avatar: string;
   profiles: Array<[string, string]>;
+};
 
-  constructor(
-    firstName: string,
-    lastName: string,
-    title: string,
-    avatarPath: string,
-    profiles: Array<[string, string]>
-  ) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.title = title;
-    this.avatarPath = avatarPath;
-    this.profiles = profiles;
-  }
-}
+export default UserProfile;

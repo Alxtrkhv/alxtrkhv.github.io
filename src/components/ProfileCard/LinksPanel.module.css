@@ -1,0 +1,14 @@
+.links {
+    width: 80%;
+    margin: 1.2em 0;
+    height: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+
+    /* Reset default value */
+    -webkit-padding-start: 0;
+}
+
+.links li {
+    display: block;
+}
