@@ -1,11 +1,11 @@
 .link {
-    height: 100%;
+    height: 24px;
 }
 
 .link a {
-    height: 100%;
+    height: inherit;
 }
 
 .link img {
-    height: 100%;
+    height: inherit;
 }
