@@ -7,7 +7,7 @@ type Props = {
 export default function Header(props: Props) {
   return (
     <div className={styles.header}>
-      <p className={styles.logo}>{props.title}</p>
+      <p className={styles.logo}>{props.title.toUpperCase()}</p>
     </div>
   );
 }
