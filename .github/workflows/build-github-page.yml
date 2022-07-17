@@ -35,8 +35,11 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Export
+        run: npm run export
+
       - name: Upload
-        working-directory: ./build
+        working-directory: ./out
         run: |-
           git init
           git config --local user.name ${{ github.repository_owner }}
