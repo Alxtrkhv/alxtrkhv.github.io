@@ -3,7 +3,7 @@
   "lastName": "Terekhov",
   "title": "Software Developer",
   "firstYear": 2020,
-  "avatar": "https://www.gravatar.com/avatar/83506d8360b704afd93ad11e97d2804c?s=350",
+  "avatar": "assets/images/avatar.jpg",
   "profiles": [
     ["https://github.com/alxtrkhv", "assets/images/logos/github.svg"],
     ["https://linkedin.com/in/alxtrkhv", "assets/images/logos/linkedin.svg"],
