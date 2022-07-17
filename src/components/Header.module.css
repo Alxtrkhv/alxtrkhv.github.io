@@ -12,7 +12,7 @@
 .logo {
     margin: auto var(--global-margin);
     font-family: var(--logo-font);
-    font-weight: bold;
-    font-size: x-large;
+    font-weight: 700;
+    font-size: 1.6em;
     text-align: center;
 }
