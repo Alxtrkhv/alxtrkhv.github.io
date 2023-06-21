@@ -1,9 +1,7 @@
 "use client";
 
-import userProfile from "../assets/config.json";
-
-import Profile from "../layouts/Profile";
+import Main from "../components/main";
 
 export default function Home() {
-  return <Profile profile={userProfile} />;
+  return <Main />;
 }
