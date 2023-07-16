@@ -6,7 +6,6 @@
   "avatar": "assets/images/avatar.jpg",
   "profiles": [
     ["https://github.com/alxtrkhv", "assets/images/logos/github.svg"],
-    ["https://linkedin.com/in/alxtrkhv", "assets/images/logos/linkedin.svg"],
-    ["https://soundcloud.com/alxtrkhv", "assets/images/logos/soundcloud.svg"]
+    ["https://linkedin.com/in/alxtrkhv", "assets/images/logos/linkedin.svg"]
   ]
 }
