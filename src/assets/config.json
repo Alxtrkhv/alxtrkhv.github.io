@@ -7,8 +7,6 @@
   "profiles": [
     ["https://github.com/alxtrkhv", "assets/images/logos/github.svg"],
     ["https://linkedin.com/in/alxtrkhv", "assets/images/logos/linkedin.svg"],
-    ["https://twitter.com/alxtrkhv", "assets/images/logos/twitter.svg"],
-    ["https://instagram.com/alxtrkhv", "assets/images/logos/instagram.svg"],
     ["https://soundcloud.com/alxtrkhv", "assets/images/logos/soundcloud.svg"]
   ]
 }
